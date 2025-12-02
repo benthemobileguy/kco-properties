@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1761971269825,
+      "tag": "0000_pretty_sharon_ventura",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1761971344597,
+      "tag": "0001_orange_jack_flag",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1761973117959,
+      "tag": "0002_bright_thing",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1761975692992,
+      "tag": "0003_fluffy_goblin_queen",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1763976154364,
+      "tag": "0004_large_blizzard",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1763983071588,
+      "tag": "0005_futuristic_satana",
+      "breakpoints": true
+    }
+  ]
+}

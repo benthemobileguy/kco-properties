@@ -1,0 +1,1 @@
+ALTER TABLE `tourBookings` ADD `reminderSent` boolean DEFAULT false NOT NULL;

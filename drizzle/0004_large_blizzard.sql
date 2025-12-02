@@ -1,0 +1,21 @@
+CREATE TABLE `units` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`propertyId` int NOT NULL,
+	`unitNumber` varchar(50) NOT NULL,
+	`floor` int,
+	`bedrooms` int NOT NULL,
+	`bathrooms` int NOT NULL,
+	`squareFeet` int,
+	`rentAmount` int NOT NULL,
+	`depositAmount` int NOT NULL,
+	`isAvailable` boolean NOT NULL DEFAULT true,
+	`availableDate` timestamp,
+	`currentTenantId` int,
+	`leaseEndDate` timestamp,
+	`amenities` text,
+	`images` text,
+	`floorPlanUrl` varchar(500),
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `units_id` PRIMARY KEY(`id`)
+);
